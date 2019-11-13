@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Card Exercise 3|</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="#">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<!-- Link JS -->
+	<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+	<style>
+.rounded-circle {
+    position: absolute;
+    top: 40%;
+    width: 100px;
+    height: 100px;
+    left: 34%;
+    border: 6px solid white;
+}	
+.rounded-circle1 {
+    position: absolute;
+    top: 38%;
+    width: 100px;
+    height: 100px;
+    left: 34%;
+    border: 15px solid white;
+    border-radius: 50%;
+}
+.card{
+	position: relative;
+	box-shadow: 5px 5px 5px grey;
+	height: 400px !important;
+}
+	</style>
+</head>
+<body>
+	<div class="container-fuid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-12 ">
+					<div class="card text-center">
+						<h4>About me</h4>
+						<hr>
+						<div class="card-body">
+							<div class="card-title">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt harum maxime, esse iusto libero at non quas vel consequatur deserunt recusandae culpa ducimus architecto repellendus explicabo quae! Cupiditate, voluptas, nulla.</p>
+								<hr>
+							</div>
+							<ul class="list-inline ">
+							<li class="list-inline-item"><a href=""><i class="fab fa-facebook-f text-primary"></i></a></li>
+							<li class="list-inline-item"><a href=""><i class="fab fa-pinterest text-danger"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-instagram text-secondary"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+							<a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-12">
+					<div class="card text-center">
+						<img class="card-img-top" src="img/banner.jpg" alt="card-image">
+					<div class="avatar mx-auto bg-white">
+						<img class="rounded-circle" src="img/img (20).jpg" alt="Sample avatar image.">
+					</div>
+					<div class="card-body text-center pt-5">
+						<h4>Anna Deynah</h4>
+						<p>Web Designer</p>
+						<a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-12">
+					<div class="card text-center">
+						<img class="card-img-top" src="img/john.jpg" alt="card-image">
+					<div class="avatar mx-auto bg-white">
+						<img class="rounded-circle1" src="img/img (8).jpg" alt="Sample avatar image.">
+					</div>
+					<div class="card-body text-center pt-5">
+						<h4>John Doe</h4>
+						<p>Front-end Developer</p>
+						<a class="rotate-btn" data-card="card-1"><i class="fa fa-undo"></i> Click here to rotate back</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
